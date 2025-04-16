@@ -1,0 +1,19 @@
+body {
+  background: rgb(128, 80, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(128, 80, 66, 1) 11%,
+    rgba(156, 108, 72, 1) 38%,
+    rgba(179, 132, 80, 1) 72%,
+    rgba(208, 159, 90, 1) 100%
+  );
+
+  
+}
+.branco {
+  background-color: white;
+}
+
+head {}
+
+
