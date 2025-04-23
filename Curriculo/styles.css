@@ -1,19 +1,37 @@
-body {
-  background: rgb(128, 80, 66);
-  background: linear-gradient(
-    90deg,
+:root {
+  --gradient: linear-gradient(
+    to right,
     rgba(128, 80, 66, 1) 11%,
     rgba(156, 108, 72, 1) 38%,
     rgba(179, 132, 80, 1) 72%,
     rgba(208, 159, 90, 1) 100%
   );
-
-  
 }
+
+#cabecalho {
+  background-image: var(--gradient);
+  padding: 5px; 
+}
+
+body {
+  background-color: #f6eeec;
+}
+
 .branco {
   background-color: white;
 }
 
-head {}
+.borda {
+  border: 10px solid white;
 
+  border-image: var(--gradient) 1;
+}
 
+hr {
+  border: 2px solid white;
+
+  border-image: var(--gradient) 1;
+}
+
+head {
+}
